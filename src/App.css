@@ -7,12 +7,14 @@
 }
 
 .navbar-container {
+  position:fixed;
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content:space-around;
   align-items: center;
   flex-shrink: inherit;
-  background-color: black;
+  background-image: linear-gradient(180deg,black, rgba(84,84,84,0%));
   padding: 10px;
 }
 
@@ -52,4 +54,46 @@
 
 .blue-text {
   color: #01ADCE;
+}
+
+.hero-container {
+  display: flex;
+  width: 100%;
+  height: 1000px;
+  background-position: center;
+  background-size: contain;
+  background-image: linear-gradient(180deg,rgba(84,84,84,0%),black), url('./images/hero.jpg');
+}
+
+
+.hero-title {
+  display: block;
+  width: 40%;
+  text-align: left;
+  margin: auto;
+  margin-left:5em;
+}
+
+.hero-small-text {
+  color: white;
+  font-size: 55px;
+}
+
+.hero-large-text {
+  color: #01ADCE;
+  font-size: 75px;
+}
+
+.about-me-container {
+  display: block;
+  width: 40%;
+  margin: auto;
+  margin-right: 5em;
+  text-align: left;
+
+}
+
+.about-me-text {
+  color: white;
+  font-size: 30px;
 }
