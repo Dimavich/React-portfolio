@@ -10,13 +10,13 @@ const Navbar = () => {
                 <h2 className="nav-logo"> <span className='blue-text'>Dmitriy</span> Babich</h2>
                 <ul className='nav-ul'>
                     <li className="nav-li">
-                      <Link to='about' className='nav-link'>About me</Link>
+                      <Link to='about' className='nav-link hover-blue'>About me</Link>
                     </li>
                     <li className="nav-li">
-                      <Link to='work' className='nav-link'>My work</Link>
+                      <Link to='work' className='nav-link hover-red'>My work</Link>
                     </li>
                     <li className="nav-li">
-                      <Link to='contact' className='nav-link'>Contact me</Link>
+                      <Link to='contact' className='nav-link hover-green'>Contact me</Link>
                     </li>
                 </ul>
             </div>

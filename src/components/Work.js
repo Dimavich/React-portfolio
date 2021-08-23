@@ -40,7 +40,7 @@ class MyCarousel extends Component {
             <h2 className="page-title"> Some of my <span className="red-text">Work</span></h2>
             <div className="work-container">
                 <div style={MyCarousel.CONTAINER_STYLE}>
-                    <ReactCardCarousel autoplay={false} autoplay_speed={5000}>
+                    <ReactCardCarousel autoplay={true} autoplay_speed={5000}>
                     <div style={MyCarousel.CARD_STYLE}>
                         <div className="card-text">
                             <h3 className="card-title">Eventory</h3>
