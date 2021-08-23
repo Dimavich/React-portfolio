@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import ReactCardCarousel from "react-card-carousel";
-import { BrowserRouter as Router, Link} from "react-router-dom";
 import eventory from '../images/eventory.png'
 import surf from '../images/surf-forecast.png'
 import teamDash from '../images/team-dash.png'
@@ -45,18 +44,16 @@ class MyCarousel extends Component {
                     <div style={MyCarousel.CARD_STYLE}>
                         <div className="card-text">
                             <h3 className="card-title">Eventory</h3>
-                            <Router>
                                 <div className="link-icons">
-                                    <Link href='https://dimavich.github.io/web-portfolio/#2' className='visit-link icon-link'>
+                                    <a href='https://my-eventory.herokuapp.com' className='visit-link icon-link'>
                                         <i className="far fa-window-maximize icon"></i>
                                         <p className="icontext">Visit</p>
-                                    </Link>
-                                    <Link to='https://github.com/Dimavich/Eventory' className='visit-link icon-link'>
+                                    </a>
+                                    <a href='https://github.com/Dimavich/Eventory' className='visit-link icon-link'>
                                         <i class="fab fa-github"></i>
                                         <p className="icontext">GitHub</p>
-                                    </Link>
+                                    </a>
                                 </div>
-                            </Router>
                         </div>
                         <div className="card-image">
                             <img src={eventory} alt='screenshot of my work' />
@@ -65,18 +62,16 @@ class MyCarousel extends Component {
                     <div style={MyCarousel.CARD_STYLE}>
                         <div className="card-text">
                             <h3 className="card-title">Surf Forecast</h3>
-                            <Router>
                                 <div className="link-icons">
-                                    <Link to='https://dimavich.github.io/surf-forecast/' className='visit-link icon-link'>
+                                    <a href='https://dimavich.github.io/surf-forecast/' className='visit-link icon-link'>
                                         <i className="far fa-window-maximize icon"></i>
                                         <p className="icontext">Visit</p>
-                                    </Link>
-                                    <Link to='https://github.com/Dimavich/surf-forecast' className='visit-link icon-link'>
+                                    </a>
+                                    <a href='https://github.com/Dimavich/surf-forecast' className='visit-link icon-link'>
                                         <i class="fab fa-github"></i>
                                         <p className="icontext">GitHub</p>
-                                    </Link>
+                                    </a>
                                 </div>
-                            </Router>
                         </div>
                         <div className="card-image">
                             <img src={surf} alt='screenshot of my work' />
@@ -85,14 +80,12 @@ class MyCarousel extends Component {
                     <div style={MyCarousel.CARD_STYLE}>
                         <div className="card-text">
                             <h3 className="card-title">Team Dash</h3>
-                            <Router>
                                 <div className="link-icons">
-                                    <Link to='https://github.com/Dimavich/Team-card-generator' className='visit-link icon-link'>
+                                    <a href='https://github.com/Dimavich/Team-card-generator' className='visit-link icon-link'>
                                         <i class="fab fa-github"></i>
                                         <p className="icontext">GitHub</p>
-                                    </Link>
+                                    </a>
                                 </div>
-                            </Router>
                         </div>
                         <div className="card-image">
                             <img src={teamDash} alt='screenshot of my work' />
