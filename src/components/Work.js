@@ -50,7 +50,7 @@ class MyCarousel extends Component {
                                         <p className="icontext">Visit</p>
                                     </a>
                                     <a href='https://github.com/Dimavich/Eventory' className='visit-link icon-link'>
-                                        <i class="fab fa-github"></i>
+                                        <i class="fab fa-github icon"></i>
                                         <p className="icontext">GitHub</p>
                                     </a>
                                 </div>
@@ -68,7 +68,7 @@ class MyCarousel extends Component {
                                         <p className="icontext">Visit</p>
                                     </a>
                                     <a href='https://github.com/Dimavich/surf-forecast' className='visit-link icon-link'>
-                                        <i class="fab fa-github"></i>
+                                        <i class="fab fa-github icon"></i>
                                         <p className="icontext">GitHub</p>
                                     </a>
                                 </div>
@@ -82,7 +82,7 @@ class MyCarousel extends Component {
                             <h3 className="card-title">Team Dash</h3>
                                 <div className="link-icons">
                                     <a href='https://github.com/Dimavich/Team-card-generator' className='visit-link icon-link'>
-                                        <i class="fab fa-github"></i>
+                                        <i class="fab fa-github icon"></i>
                                         <p className="icontext">GitHub</p>
                                     </a>
                                 </div>

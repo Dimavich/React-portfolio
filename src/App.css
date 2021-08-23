@@ -122,7 +122,7 @@
   height: 1000px;
   background-position: center;
   background-size: cover;
-  background-image: linear-gradient(0deg,rgba(84,84,84,0%),black), url('./images/work-bc.jpg');
+  background-image: linear-gradient(0deg,rgba(84,84,84,0%),black),linear-gradient(180deg,rgba(84,84,84,0%),black), url('./images/work-bc.jpg');
 }
 
 .card-text {
@@ -143,7 +143,7 @@
   flex-direction: row;
 }
 
-i {
+.icon {
   font-size: 25px;
   color: white;
   text-shadow: 0px 3px 6px black;
@@ -163,7 +163,7 @@ i {
   margin-left: 20px;
 }
 
-i:hover {
+.icon:hover {
   transform: scale(1.2);
   color: #C7012F;
 }
@@ -173,6 +173,8 @@ i:hover {
   height: 550px;
   border-radius: 15px;
 }
+
+
 
 .page-title {
   display: flex;
@@ -190,6 +192,62 @@ i:hover {
   margin-left: 15px;
 }
 
+.contact-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  background-image: linear-gradient(0deg,rgba(84,84,84,0%),black);
+  background-color: #232323;
+  background-position: center;
+  background-size:auto;
+  height: 250px;
+}
+ 
+.icon-container {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
 
+.contact-icon {
+  font-size: 65px;
+  color: white;
+  transition: ease-in 0.3s;
+}
 
+.contact-icon:hover {
+  transform: scale(1.1);
+  color: #01D34D;
+  text-shadow: 0px 0px 20px #01d34e8e;
+}
 
+.contact-text {
+  color: white;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.green-text {
+  color: #01D34D;
+  margin-left: 15px;
+}
+
+.contact-title-text {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 65px;
+}
+
+.contact-title {
+  background-color: black;
+}
