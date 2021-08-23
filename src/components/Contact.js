@@ -3,7 +3,8 @@ import React from 'react'
 function Contact() {
     return (
         <div className="contact-title">
-            <h2 className="contact-title-text">Contact <span className='green-text'>Me</span> </h2>
+            <h2 className="contact-title-text" id='contact'>Contact <span className='green-text'>Me</span> </h2>
+            <p className="contact-me-p">Feel Free to contact me with any questions or work. You can also view my social media and resume below.</p>
         <div className="contact-container">
             <div className="icon-container">
                 <a href="https://github.com/Dimavich" className='contact-icons'><i class="fab fa-github-square contact-icon"></i><p className="contact-text">GitHub</p></a>

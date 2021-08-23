@@ -36,7 +36,7 @@ class MyCarousel extends Component {
 
   render() {
     return ( 
-        <div className='title-container'>
+        <div className='title-container' id='work'>
             <h2 className="page-title"> Some of my <span className="red-text">Work</span></h2>
             <div className="work-container">
                 <div style={MyCarousel.CONTAINER_STYLE}>
@@ -95,6 +95,7 @@ class MyCarousel extends Component {
                 </div>
             </div>
         </div>
+        
     );
   }
 }

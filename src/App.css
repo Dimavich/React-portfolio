@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
+  /* scroll-behavior: smooth; */
 }
 
 .navbar-container {
@@ -55,18 +56,21 @@
   color: #01ADCE;
   text-shadow: 0px 0px 16px #01ADCE;
   transform: scale(1.1);
+  cursor: pointer;
 }
 
 .hover-red:hover {
   color: #C7012F;
   text-shadow: 0px 0px 16px #C7012F;
   transform: scale(1.1);
+  cursor: pointer;
 }
 
 .hover-green:hover {
   transform: scale(1.1);
   text-shadow: 0px 0px 16px #01D34D;
   color: #01D34D;
+  cursor: pointer;
 }
 
 .blue-text {
@@ -197,8 +201,8 @@
   justify-content: space-around;
   align-items: center;
   margin: auto;
-  background-image: linear-gradient(0deg,rgba(84,84,84,0%),black);
-  background-color: #232323;
+  /* background-image: linear-gradient(0deg,rgba(84,84,84,0%),black), url('./images/contact-bc.jpg'); */
+  /* background-color: #232323; */
   background-position: center;
   background-size:auto;
   height: 250px;
@@ -250,4 +254,32 @@ a {
 
 .contact-title {
   background-color: black;
+  background-image: linear-gradient(0deg,rgba(84,84,84,0%),black), url('./images/contact-bc.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.active-about {
+  color: #01ADCE;
+  text-shadow: 0px 0px 16px #01ADCE;
+  transform: scale(1.1);
+}
+
+.active-work {
+  color: #C7012F;
+  text-shadow: 0px 0px 16px #C7012F;
+  transform: scale(1.1);
+}
+
+.active-contact {
+  color: #01D34D;
+  text-shadow: 0px 0px 16px #01D34D;
+  transform: scale(1.1);
+}
+
+.contact-me-p {
+  color: white;
+  font-size: 50px;
+  width: 30%;
+  margin: 30px auto;
 }
