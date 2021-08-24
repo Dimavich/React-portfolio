@@ -1,13 +1,26 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../App.css'
 import { Link } from 'react-scroll'
 
 
 
 const Navbar = () => {
+
+  const [nav, setNav]= useState(false)
+
+  const changeNav = () => {
+    if(window.scrollY > 100) {
+      setNav(true);
+    } else {
+      setNav(false)
+    }
+  }
+
+  window.addEventListener('scroll', changeNav);
+
     return (
-      <div className="navbar-container">
-          <h2 className="nav-logo"> <span className='blue-text'>Dmitriy</span> Babich</h2>
+      <div className={nav ? 'navbar-container black': 'navbar-container'}>
+          <h2 className="nav-logo"> Dmitriy Babich</h2>
           <ul className='nav-ul'>
               <li className="nav-li">
                 <Link to='about' activeClass='active-about' spy={true} smooth={true} duration={1000} className='nav-link hover-blue'>About me</Link>
