@@ -23,8 +23,8 @@ class MyCarousel extends Component {
 
   static get CARD_STYLE() {
     return {
-      height: "600px",
-      width: "600px",
+      height: "550px",
+      width: "550px",
       paddingTop: "10px",
       textAlign: "center",
       background: "#3B3B3B",
@@ -42,9 +42,9 @@ class MyCarousel extends Component {
         <div className='title-container' id='work'>
             <h2 className="page-title"> Some of my <span className="red-text">Work</span></h2>
             <div className="work-container">
-                <div style={MyCarousel.CONTAINER_STYLE}>
+                <div style={MyCarousel.CONTAINER_STYLE} className='card-div'>
                     <ReactCardCarousel autoplay={true} autoplay_speed={5000}>
-                    <div style={MyCarousel.CARD_STYLE}>
+                    <div style={MyCarousel.CARD_STYLE} className='card'>
                         <div className="card-text">
                             <h3 className="card-title">Eventory</h3>
                                 <div className="link-icons">
@@ -62,7 +62,7 @@ class MyCarousel extends Component {
                             <img src={eventory} alt='screenshot of my work' />
                         </div>
                     </div>
-                    <div style={MyCarousel.CARD_STYLE}>
+                    <div style={MyCarousel.CARD_STYLE} className='card'>
                         <div className="card-text">
                             <h3 className="card-title">Surf Forecast</h3>
                                 <div className="link-icons">
@@ -80,7 +80,7 @@ class MyCarousel extends Component {
                             <img src={surf} alt='screenshot of my work' />
                         </div>
                     </div>
-                    <div style={MyCarousel.CARD_STYLE}>
+                    <div style={MyCarousel.CARD_STYLE} className='card'>
                         <div className="card-text">
                             <h3 className="card-title">Team Dash</h3>
                                 <div className="link-icons">
@@ -94,7 +94,7 @@ class MyCarousel extends Component {
                             <img src={teamDash} alt='screenshot of my work' />
                         </div>
                     </div>
-                    <div style={MyCarousel.CARD_STYLE}>
+                    <div style={MyCarousel.CARD_STYLE} className='card'>
                         <div className="card-text">
                             <h3 className="card-title">Fitness Dash</h3>
                                 <div className="link-icons">
@@ -108,7 +108,7 @@ class MyCarousel extends Component {
                             <img src={fitnessDash} alt='screenshot of my work' />
                         </div>
                     </div>
-                    <div style={MyCarousel.CARD_STYLE}>
+                    <div style={MyCarousel.CARD_STYLE} className='card'>
                         <div className="card-text">
                             <h3 className="card-title">Simple Notes</h3>
                                 <div className="link-icons">
@@ -122,7 +122,7 @@ class MyCarousel extends Component {
                             <img src={noteTaker} alt='screenshot of my work' />
                         </div>
                     </div>
-                    <div style={MyCarousel.CARD_STYLE}>
+                    <div style={MyCarousel.CARD_STYLE} className='card'>
                         <div className="card-text">
                             <h3 className="card-title">Weather Dash</h3>
                                 <div className="link-icons">

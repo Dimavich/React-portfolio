@@ -202,8 +202,6 @@
   justify-content: space-around;
   align-items: center;
   margin: auto;
-  /* background-image: linear-gradient(0deg,rgba(84,84,84,0%),black), url('./images/contact-bc.jpg'); */
-  /* background-color: #232323; */
   background-position: center;
   background-size:auto;
   height: 250px;
@@ -325,4 +323,65 @@ input {
   transform: scale(1.1);
   background-color: #5fff9a;
   box-shadow: 0px 3px 10px black;
+}
+
+@media (max-width:1000px) {
+  .navbar-container {
+    display: none;
+  }
+
+  .hero-text {
+    font-size: 25px;
+  }
+
+  .hero-container {
+    height: fit-content;
+  }
+ 
+  .about-me-text {
+    font-size: 15px;
+  }
+
+  .page-title {
+    font-size: 25px;
+  }
+
+  .card {
+    height: 300px !important;
+    width: 300px !important;
+  }
+
+  .card-title {
+    font-size: 25px;
+  }
+
+  .card-image img{
+    height: 200px;
+    width: 200px;
+  }
+
+  .card-div {
+    height: fit-content;
+  }
+
+  .work-container {
+    height: min-content;
+  }
+
+  .contact-title-text {
+    font-size: 25px;
+  }
+
+  .form-text {
+    font-size: 18px;
+  }
+
+  input {
+    height: 40px;
+    width: 200px;
+  }
+
+  .contact-icon {
+    font-size: 30px;
+  }
 }
