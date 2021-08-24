@@ -4,6 +4,9 @@ import ReactCardCarousel from "react-card-carousel";
 import eventory from '../images/eventory.png'
 import surf from '../images/surf-forecast.png'
 import teamDash from '../images/team-dash.png'
+import fitnessDash from '../images/workout-dash.png'
+import noteTaker from '../images/note-taker.png'
+import weatherDash from '../images/weather-dash.png'
 
 class MyCarousel extends Component {
   static get CONTAINER_STYLE() {
@@ -89,6 +92,52 @@ class MyCarousel extends Component {
                         </div>
                         <div className="card-image">
                             <img src={teamDash} alt='screenshot of my work' />
+                        </div>
+                    </div>
+                    <div style={MyCarousel.CARD_STYLE}>
+                        <div className="card-text">
+                            <h3 className="card-title">Fitness Dash</h3>
+                                <div className="link-icons">
+                                    <a href='https://github.com/Dimavich/Fitness-Tracker' className='visit-link icon-link'>
+                                        <i class="fab fa-github icon"></i>
+                                        <p className="icontext">GitHub</p>
+                                    </a>
+                                </div>
+                        </div>
+                        <div className="card-image">
+                            <img src={fitnessDash} alt='screenshot of my work' />
+                        </div>
+                    </div>
+                    <div style={MyCarousel.CARD_STYLE}>
+                        <div className="card-text">
+                            <h3 className="card-title">Simple Notes</h3>
+                                <div className="link-icons">
+                                    <a href='https://github.com/Dimavich/simple-note-taker' className='visit-link icon-link'>
+                                        <i class="fab fa-github icon"></i>
+                                        <p className="icontext">GitHub</p>
+                                    </a>
+                                </div>
+                        </div>
+                        <div className="card-image">
+                            <img src={noteTaker} alt='screenshot of my work' />
+                        </div>
+                    </div>
+                    <div style={MyCarousel.CARD_STYLE}>
+                        <div className="card-text">
+                            <h3 className="card-title">Weather Dash</h3>
+                                <div className="link-icons">
+                                <a href='https://dimavich.github.io/weather-dashboard' className='visit-link icon-link'>
+                                        <i className="far fa-window-maximize icon"></i>
+                                        <p className="icontext">Visit</p>
+                                    </a>
+                                    <a href='https://github.com/Dimavich/weather-dashboard' className='visit-link icon-link'>
+                                        <i class="fab fa-github icon"></i>
+                                        <p className="icontext">GitHub</p>
+                                    </a>
+                                </div>
+                        </div>
+                        <div className="card-image">
+                            <img src={weatherDash} alt='screenshot of my work' />
                         </div>
                     </div>
                     </ReactCardCarousel>
