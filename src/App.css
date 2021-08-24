@@ -288,3 +288,41 @@ a {
 .black {
   background-color: black;
 }
+
+.form-text {
+  color: white;
+  font-size: 25px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 120px auto;
+  height: 350px;
+  width: 100%;
+}
+
+input {
+  height: 50px;
+  width: 300px;
+  background-color: #232323;
+  color: white;
+  font-size: 18px;
+}
+
+.submit {
+  border-radius: 20px;
+  border: none;
+  width: 200px;
+  background-color: #01D34D;
+  font-weight: bold;
+  color: #232323;
+  transition: ease-in-out 0.3s;
+}
+
+.submit:hover {
+  transform: scale(1.1);
+  background-color: #5fff9a;
+  box-shadow: 0px 3px 10px black;
+}
